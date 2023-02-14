@@ -52,7 +52,6 @@ function tamBolenler(sayi) {
 function toplam() {
     let sonuc = 0;
     for (let i = 0; i < arguments.length; i++) {
-        debugger;
         sonuc += arguments[i];
     }
     return sonuc;
